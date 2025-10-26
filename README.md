@@ -27,44 +27,58 @@ Update Grub AUR Package
 UFW Firewall
 
 `sudo pacman -S ufw --noconfirm`
+
 `sudo ufw default deny`
+
 `sudo ufw enable`
+
 `sudo systemctl enable ufw`
 
 Fonts and emojis:
 
 `sudo pacman -S noto-fonts-cjk --noconfirm
-`sudo pacman -S noto-fonts-emoji --noconfirm
-`sudo pacman -S ttf-jetbrains-mono-nerd --noconfirm
-`sudo pacman -S inter-font --noconfirm 
+
+`sudo pacman -S noto-fonts-emoji --noconfirm`
+
+`sudo pacman -S ttf-jetbrains-mono-nerd --noconfirm`
+
+`sudo pacman -S inter-font --noconfirm`
 
 File management
 
-`sudo pacman -S ark p7zip unrar unzip zip
+`sudo pacman -S ark p7zip unrar unzip zip`
 
 TLP for notebook battery
 
-`sudo pacman -S tlp --noconfirm
-`sudo systemctl enable tlp 
-`sudo systemctl start tlp
+`sudo pacman -S tlp --noconfirm`
+
+`sudo systemctl enable tlp`
+
+`sudo systemctl start tlp`
 
 Useful commands:
 
-`sudo pacman -Syyu --noconfirm # Update
-`sudo pacman -Scc --noconfirm # Clear cache
-`sudo pacman -Rns $(pacman -Qdtq) # Remove Unused Packages
-`yay -Syyu --noconfirm # Update AUR Packages
+`sudo pacman -Syyu --noconfirm # Update`
+
+`sudo pacman -Scc --noconfirm # Clear cache`
+
+`sudo pacman -Rns $(pacman -Qdtq) # Remove Unused Packages`
+
+`yay -Syyu --noconfirm # Update AUR Packages`
 
 VLC, Obsidian and other apps
 
-`flatpak install flathub org.videolan.VLC
-`flatpak install flathub md.obsidian.Obsidian
-`flatpak install flathub org.qbittorrent.qBittorrent
-`yay -S visual-studio-code-bin --noconfirm --removemake
+`flatpak install flathub org.videolan.VLC`
+
+`flatpak install flathub md.obsidian.Obsidian`
+
+`flatpak install flathub org.qbittorrent.qBittorrent`
+
+`yay -S visual-studio-code-bin --noconfirm --removemake`
 
 Terminal
 
-`sudo pacman -S ghostty --noconfirm 
+	`sudo pacman -S ghostty --noconfirm`
 
 
 
