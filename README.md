@@ -3,19 +3,16 @@
 Update and upgrade the system
 
 `sudo pacman -Syyu --noconfirm`
-
-\\
-
+<br>
 Git and other necessary packages
 
 `sudo pacman -S git vim --noconfirm`
-
+<br>
 
 Yay for AUR Packages
 
 `git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si`
-
-
+<br>
 SOF Firmware for audio
 
 `sudo pacman -S sof-firwmare --noconfirm`
