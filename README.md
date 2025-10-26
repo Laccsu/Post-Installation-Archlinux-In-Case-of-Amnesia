@@ -66,19 +66,37 @@ sudo systemctl start tlp
 ```
 
 Useful commands:
-```sudo pacman -Syyu --noconfirm # Update```
-```sudo pacman -Scc --noconfirm # Clear cache```
-```sudo pacman -Rns $(pacman -Qdtq) # Remove Unused Packages```
-```yay -Syyu --noconfirm # Update AUR Packages```
+```
+sudo pacman -Syyu --noconfirm # Update
+```
+```
+sudo pacman -Scc --noconfirm # Clear cache
+```
+```
+sudo pacman -Rns $(pacman -Qdtq) # Remove Unused Packages
+```
+```
+yay -Syyu --noconfirm # Update AUR Packages
+```
 
 VLC, Obsidian and other apps
-```flatpak install flathub org.videolan.VLC```
-```flatpak install flathub md.obsidian.Obsidian```
-```flatpak install flathub org.qbittorrent.qBittorrent```
-```yay -S visual-studio-code-bin --noconfirm --removemake```  
+```
+flatpak install flathub org.videolan.VLC
+```
+```
+flatpak install flathub md.obsidian.Obsidian
+```
+```
+flatpak install flathub org.qbittorrent.qBittorrent
+```
+```
+yay -S visual-studio-code-bin --noconfirm --removemake
+```  
 
 Terminal
-```sudo pacman -S ghostty --noconfirm```
+```
+sudo pacman -S ghostty --noconfirm
+```
 
 
 
