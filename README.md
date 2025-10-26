@@ -3,7 +3,7 @@
 Update and upgrade the system
 
 `sudo pacman -Syyu --noconfirm`
-
+|
 
 Git and other necessary packages
 
@@ -49,7 +49,7 @@ Fonts and emojis:
 
 File management
 
-`sudo pacman -S ark p7zip unrar unzip zip`
+`sudo pacman -S ark p7zip unrar unzip zip --noconfirm` 
 
 
 TLP for notebook battery
