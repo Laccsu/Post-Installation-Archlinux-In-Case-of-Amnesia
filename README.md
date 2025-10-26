@@ -4,7 +4,9 @@ Update and upgrade the system
 
 `sudo pacman -Syyu --noconfirm`
 
-
+```
+Copy here
+```
 
 Git and other necessary packages
 
