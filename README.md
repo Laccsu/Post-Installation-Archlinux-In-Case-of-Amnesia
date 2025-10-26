@@ -36,13 +36,7 @@ UFW Firewall
 
 Fonts and emojis:
 
-`sudo pacman -S noto-fonts-cjk --noconfirm
-
-`sudo pacman -S noto-fonts-emoji --noconfirm`
-
-`sudo pacman -S ttf-jetbrains-mono-nerd --noconfirm`
-
-`sudo pacman -S inter-font --noconfirm`
+`sudo pacman -S noto-fonts-cjk noto-fonts-emoji ttf-jetbrains-mono-nerd inter-font --noconfirm`
 
 File management
 
