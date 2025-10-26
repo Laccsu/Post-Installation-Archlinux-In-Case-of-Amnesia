@@ -4,6 +4,8 @@ Update and upgrade the system
 
 `sudo pacman -Syyu --noconfirm`
 
+
+
 Git and other necessary packages
 
 `sudo pacman -S git vim --noconfirm`
