@@ -27,7 +27,7 @@ yay -S mkinitcpio-firmware --noconfirm --removemake
 
 Update Grub AUR Package
 ```
-yay -S update-grub --noconfirm -removemake
+yay -S update-grub --noconfirm --removemake
 ```
 
 UFW Firewall
@@ -36,11 +36,7 @@ sudo pacman -S ufw --noconfirm
 ```
 ```
 sudo ufw default deny
-```
-```
 sudo ufw enable
-```
-```
 sudo systemctl enable ufw
 ```
 
@@ -60,8 +56,6 @@ sudo pacman -S tlp --noconfirm
 ```
 ```
 sudo systemctl enable tlp
-```
-```
 sudo systemctl start tlp
 ```
 
