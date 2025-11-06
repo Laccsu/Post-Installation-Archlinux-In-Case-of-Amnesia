@@ -1,10 +1,5 @@
 # Post Installation Archlinux In Case of Amnesia
 
-Update and upgrade the system
-```
-sudo pacman -Syyu --noconfirm
-```
-
 Git and other necessary packages
 ```
 sudo pacman -S git vim --noconfirm
@@ -72,15 +67,11 @@ yay -Syyu --noconfirm # Update AUR Packages
 VLC, Obsidian and other apps
 ```
 flatpak install flathub org.videolan.VLC
-```
-```
 flatpak install flathub md.obsidian.Obsidian
-```
-```
 flatpak install flathub org.qbittorrent.qBittorrent
 ```
 ```
-yay -S visual-studio-code-bin --noconfirm --removemake
+yay -S vscodium-bin --noconfirm --removemake
 ```  
 
 Terminal
@@ -88,5 +79,16 @@ Terminal
 sudo pacman -S ghostty --noconfirm
 ```
 
-
-
+Completo
+```
+sudo pacman -S git vim sof-firmware ghostty tlp ufw noto-fonts-cjk noto-fonts-emoji ttf-jetbrains-mono-nerd inter-font ark p7zip unrar unzip zip;
+sudo ufw default deny;
+sudo ufw enable;
+sudo systemctl enable tlp ufw;
+sudo systemctl start tlp ufw;
+git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si;
+yay -S mkinitcpio-firmware update-grub vscodium-bin --noconfirm --removemake;
+flatpak install flathub org.videolan.VLC;
+flatpak install flathub md.obsidian.Obsidian;
+flatpak install flathub org.qbittorrent.qBittorrent;
+```
